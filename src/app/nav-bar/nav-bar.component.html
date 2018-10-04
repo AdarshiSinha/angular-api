@@ -1,0 +1,57 @@
+
+  <mat-toolbar>
+    <span>funfoods</span>
+  </mat-toolbar>
+
+  <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+        <mat-menu #menu="matMenu" xPosition="after" float="right">
+        <button mat-menu-item>Home</button>
+        <button mat-menu-item>Search</button>
+
+        <br>
+
+          <button mat-menu-item>
+            <mat-icon>dialpad</mat-icon>
+            <span>Contact Us</span>
+          </button>
+          <button mat-menu-item>
+            <mat-icon>voicemail</mat-icon>
+            <span>Check voicemail</span>
+          </button>
+          <button mat-menu-item>
+            <mat-icon>notifications_off</mat-icon>
+            <span>Disable alerts</span>
+          </button>
+
+        </mat-menu>
+        <!-- <mat-menu>
+        <button mat-icon-button [matMenuTriggerFor]="appMenu" [matMenuTriggerData]="name1">
+          <mat-icon>more_vert</mat-icon>
+        </button></mat-menu> -->
+
+<br>
+<form>
+    Search By Location:<br>
+    <input class="search" type="text"  name="EnterLocation" [(ngModel)]="EnterLocation">
+    <!-- <button (click)="enter()">Submit</button> -->
+
+    <br>
+    Search By Cuisine:<br>
+        <input class="search1" type="text"  name="EnterCuisine" [(ngModel)]="EnterCuisine"><br>
+    <button (click)="enter()">Submit</button>
+    <br>
+    </form>
+    <!-- <button (click)="sendData()">Add To Collections</button> -->
+
+    <div class="row" *ngFor="let res1 of res">
+        <div class="card">
+          <div class="card-body">
+            <img src="{{res1.featured_image}}">
+            <h5 class="card-title">{{res1.name}}</h5>
+            <a  class="btn btn-primary" (click)="sendData(res1)">Add To Collections</a>
+          </div>
+        </div>
+      </div>
+
+
+

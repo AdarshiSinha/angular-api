@@ -1,0 +1,14 @@
+<button (click)="showCollections()">Show  Collections</button>
+<br>
+<div>
+  <div class="row" *ngFor="let resturant of resturants">
+    <div>This is resturant: {{resturant}}</div>
+    <div class="card">
+      <div class="card-body">
+        <img src="{{resturant.featured_image}}">
+        <h5 class="card-title">{{resturant.name}}</h5>
+        <!-- <a  class="btn btn-primary" (click)="sendData(res1)">Add To Collections</a> -->
+      </div>
+    </div>
+  </div>
+</div>
