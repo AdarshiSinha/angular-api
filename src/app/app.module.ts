@@ -16,6 +16,9 @@ import { SideBarComponent } from './side-bar/side-bar.component';
 import { CardsComponent } from './cards/cards.component';
 import { MatGridListModule} from '@angular/material/grid-list';
 import { ShowCollectionsComponent } from './show-collections/show-collections.component';
+import { SearcRestaurantsComponent } from './searc-restaurants/searc-restaurants.component';
+import { FeaturedPlacesComponent } from './featured-places/featured-places.component';
+import { ExoticRestaurantsComponent } from './exotic-restaurants/exotic-restaurants.component';
 // import {MatIconModule} from '@angular/material/icon';
 // import { Observable} from '/rxjs/Observable';
 
@@ -28,7 +31,10 @@ import { ShowCollectionsComponent } from './show-collections/show-collections.co
         NavBarComponent,
         SideBarComponent,
         CardsComponent,
-        ShowCollectionsComponent
+        ShowCollectionsComponent,
+        SearcRestaurantsComponent,
+        FeaturedPlacesComponent,
+        ExoticRestaurantsComponent
 
   ],
   imports: [

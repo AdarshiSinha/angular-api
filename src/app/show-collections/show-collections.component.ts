@@ -13,11 +13,13 @@ export class ShowCollectionsComponent implements OnInit {
   constructor(private httpClient: HttpClient ) { }
   res:any=[];
   resturants=[];
+  clicked:boolean=false;
 
   ngOnInit() {
     this.showCollections();
   }
   showCollections(){
+    this.clicked=!this.clicked;
     console.log('called showCollections');
     const httpOptions = {
       headers: new HttpHeaders({

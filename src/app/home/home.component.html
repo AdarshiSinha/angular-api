@@ -1,3 +1,135 @@
-<!-- <p>
-  home works!
-</p> -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#">funfoods</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#foot">About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Find Restaurants
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">In Kormangala</a>
+            <a class="dropdown-item" href="#">In BTM</a>
+            <a class="dropdown-item" href="#">In Bellandur</a>
+            <a class="dropdown-item" href="#">In Electronic City </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">And many more...</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#foot">Blog</a>
+        </li>
+      </ul>
+
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" >
+          <a id="tt" href="#" data-toggle="tooltip" data-placement="top" title="Click here to login!!" >log In</a>
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Enter your User Id and Password:</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <!-- <p>Lorem ipsum bla bla bla</p> -->
+                <form>
+          <fieldset>
+            <div class="form-group">
+              <label for="exampleTextarea">Enter your user id:</label>
+              <textarea class="form-control" id="exampleTextarea" rows="1"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Enter your password:</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+
+            <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+          </fieldset>
+        </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">login</button>
+                <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" >
+            <a id="tt" href="#" data-toggle="tooltip" data-placement="top" title="Click here to sign up" >Sign Up</a>
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Enter your details here:</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <!-- <p>Lorem ipsum bla bla bla</p> -->
+                  <form>
+            <fieldset>
+              <!-- <legend>Enter Details Here:</legend> -->
+              <!-- <div class="form-group row"> -->
+                <!-- <label for="staticEmail" class="col-sm-2 col-form-label">Email</label> -->
+                <!-- <div class="col-sm-10"> -->
+                  <!-- <input type="text" readonly="" class="form-control-plaintext" id="staticEmail" value="email@example.com"> -->
+                <!-- </div> -->
+              <!-- </div> -->
+              <div class="form-group">
+                <label for="exampleInputEmail1">Your Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                  <label for="exampleTextarea">Enter your user id:</label>
+                  <textarea class="form-control" id="exampleTextarea" rows="1"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Create password:</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+                  <div class="form-group">
+                      <label for="exampleInputPassword1">Re-Enter your password:</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+
+              <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+            </fieldset>
+          </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Sign Up</button>
+                  <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </div>
+
+
+  </nav>
+
+  <a [routerLink]="['searc-restaurants']" class="btn btn-primary" >Search Restaurants</a>
+  <a [routerLink]="['featured-places']" class="btn btn-primary" >Featured Places Near You</a>
+  <a [routerLink]="['show-collections']" class="btn btn-primary" >Show Your Collections</a>
+  <a [routerLink]="['exotic-restaurants']" class="btn btn-primary" >Exotic Restaurants</a>
+
