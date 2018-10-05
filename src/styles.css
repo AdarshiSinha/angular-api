@@ -1,2 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+/* @import '~bootswatch/dist/united/_bootswatch'; */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+
+html, body { height: 100%;
+  background-image: url("src/assets/img/foodbackground2.jpg");
+  /* height:600%; */
+  background-repeat: repeat-y;
+  background-attachment: fixed;}
+body { margin: 0; font-family: 'Roboto', sans-serif; }

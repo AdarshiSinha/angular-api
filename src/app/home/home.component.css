@@ -1,0 +1,34 @@
+body{
+  background-image: url("src/assets/img/menu-background.jpg");
+  height:200%;
+}
+
+.navbar{
+  background-color:green;
+}
+
+.btn-primary{
+  color:white;
+}
+
+#tt{
+  color:white;
+}
+
+mat-grid-tile{
+  border-style: solid black;
+  border:2rem;
+}
+/* mat-accordian{
+  width:50%;
+} */
+
+.btn-primary{
+  font-size: 2rem;
+}
+
+mat-accordian{
+  margin-top:5rem;
+  width:50%;
+  opacity:0;
+}

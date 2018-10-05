@@ -2,206 +2,6 @@
   "posts": [
     {
       "R": {
-        "res_id": 18697968
-      },
-      "apikey": "9afe5ae2561b8091f5118177b4848b35",
-      "id": "18697968",
-      "name": "New Welcome Tea & Fast food",
-      "url": "https://www.zomato.com/vijayawada/new-welcome-tea-fast-food-islampet?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
-      "location": {
-        "address": "Vinnakotavari Chowk, One Town, Islampet, Vijayawada",
-        "locality": "Islampet",
-        "city": "Vijayawada",
-        "city_id": 11300,
-        "latitude": "16.5180541345",
-        "longitude": "80.6108096614",
-        "zipcode": "",
-        "country_id": 1,
-        "locality_verbose": "Islampet, Vijayawada"
-      },
-      "switch_to_order_menu": 0,
-      "cuisines": "South Indian",
-      "average_cost_for_two": 150,
-      "price_range": 1,
-      "currency": "Rs.",
-      "offers": [],
-      "opentable_support": 0,
-      "is_zomato_book_res": 0,
-      "mezzo_provider": "OTHER",
-      "is_book_form_web_view": 0,
-      "book_form_web_view_url": "",
-      "book_again_url": "",
-      "thumb": "",
-      "user_rating": {
-        "aggregate_rating": "0",
-        "rating_text": "Not rated",
-        "rating_color": "CBCBC8",
-        "votes": "3"
-      },
-      "photos_url": "https://www.zomato.com/vijayawada/new-welcome-tea-fast-food-islampet/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
-      "menu_url": "https://www.zomato.com/vijayawada/new-welcome-tea-fast-food-islampet/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
-      "featured_image": "",
-      "has_online_delivery": 0,
-      "is_delivering_now": 0,
-      "include_bogo_offers": true,
-      "deeplink": "zomato://restaurant/18697968",
-      "is_table_reservation_supported": 0,
-      "has_table_booking": 0,
-      "events_url": "https://www.zomato.com/vijayawada/new-welcome-tea-fast-food-islampet/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
-      "establishment_types": []
-    },
-    {
-      "R": {
-        "res_id": 18697980
-      },
-      "apikey": "9afe5ae2561b8091f5118177b4848b35",
-      "id": "18697980",
-      "name": "New Welcome Hotel",
-      "url": "https://www.zomato.com/vijayawada/new-welcome-hotel-islampet?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
-      "location": {
-        "address": "PJN Road Islampet Vijayawada",
-        "locality": "Islampet",
-        "city": "Vijayawada",
-        "city_id": 11300,
-        "latitude": "16.5201929801",
-        "longitude": "80.6182299927",
-        "zipcode": "",
-        "country_id": 1,
-        "locality_verbose": "Islampet, Vijayawada"
-      },
-      "switch_to_order_menu": 0,
-      "cuisines": "South Indian",
-      "average_cost_for_two": 300,
-      "price_range": 1,
-      "currency": "Rs.",
-      "offers": [],
-      "opentable_support": 0,
-      "is_zomato_book_res": 0,
-      "mezzo_provider": "OTHER",
-      "is_book_form_web_view": 0,
-      "book_form_web_view_url": "",
-      "book_again_url": "",
-      "thumb": "",
-      "user_rating": {
-        "aggregate_rating": "0",
-        "rating_text": "Not rated",
-        "rating_color": "CBCBC8",
-        "votes": "1"
-      },
-      "photos_url": "https://www.zomato.com/vijayawada/new-welcome-hotel-islampet/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
-      "menu_url": "https://www.zomato.com/vijayawada/new-welcome-hotel-islampet/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
-      "featured_image": "",
-      "has_online_delivery": 0,
-      "is_delivering_now": 0,
-      "include_bogo_offers": true,
-      "deeplink": "zomato://restaurant/18697980",
-      "is_table_reservation_supported": 0,
-      "has_table_booking": 0,
-      "events_url": "https://www.zomato.com/vijayawada/new-welcome-hotel-islampet/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
-      "establishment_types": []
-    },
-    {
-      "R": {
-        "res_id": 18697984
-      },
-      "apikey": "9afe5ae2561b8091f5118177b4848b35",
-      "id": "18697984",
-      "name": "New Chand Hotel ",
-      "url": "https://www.zomato.com/vijayawada/new-chand-hotel-islampet?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
-      "location": {
-        "address": "Panja Center, Islampet, Vijayawada",
-        "locality": "Islampet",
-        "city": "Vijayawada",
-        "city_id": 11300,
-        "latitude": "16.5215770776",
-        "longitude": "80.6166129559",
-        "zipcode": "",
-        "country_id": 1,
-        "locality_verbose": "Islampet, Vijayawada"
-      },
-      "switch_to_order_menu": 0,
-      "cuisines": "South Indian",
-      "average_cost_for_two": 300,
-      "price_range": 1,
-      "currency": "Rs.",
-      "offers": [],
-      "opentable_support": 0,
-      "is_zomato_book_res": 0,
-      "mezzo_provider": "OTHER",
-      "is_book_form_web_view": 0,
-      "book_form_web_view_url": "",
-      "book_again_url": "",
-      "thumb": "",
-      "user_rating": {
-        "aggregate_rating": "3.6",
-        "rating_text": "Good",
-        "rating_color": "9ACD32",
-        "votes": "11"
-      },
-      "photos_url": "https://www.zomato.com/vijayawada/new-chand-hotel-islampet/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
-      "menu_url": "https://www.zomato.com/vijayawada/new-chand-hotel-islampet/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
-      "featured_image": "",
-      "has_online_delivery": 0,
-      "is_delivering_now": 0,
-      "include_bogo_offers": true,
-      "deeplink": "zomato://restaurant/18697984",
-      "is_table_reservation_supported": 0,
-      "has_table_booking": 0,
-      "events_url": "https://www.zomato.com/vijayawada/new-chand-hotel-islampet/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
-      "establishment_types": []
-    },
-    {
-      "R": {
-        "res_id": 18696543
-      },
-      "apikey": "9afe5ae2561b8091f5118177b4848b35",
-      "id": "18696543",
-      "name": "New Good Morning",
-      "url": "https://www.zomato.com/vijayawada/new-good-morning-governorpet?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
-      "location": {
-        "address": "Vemula Syamaladevi Road, Near Sun Rise Hospital, Governorpet, Vijayawada",
-        "locality": "Governorpet",
-        "city": "Vijayawada",
-        "city_id": 11300,
-        "latitude": "16.5135751467",
-        "longitude": "80.6392571703",
-        "zipcode": "",
-        "country_id": 1,
-        "locality_verbose": "Governorpet, Vijayawada"
-      },
-      "switch_to_order_menu": 0,
-      "cuisines": "South Indian",
-      "average_cost_for_two": 250,
-      "price_range": 1,
-      "currency": "Rs.",
-      "offers": [],
-      "opentable_support": 0,
-      "is_zomato_book_res": 0,
-      "mezzo_provider": "OTHER",
-      "is_book_form_web_view": 0,
-      "book_form_web_view_url": "",
-      "book_again_url": "",
-      "thumb": "",
-      "user_rating": {
-        "aggregate_rating": "3.9",
-        "rating_text": "Good",
-        "rating_color": "9ACD32",
-        "votes": "64"
-      },
-      "photos_url": "https://www.zomato.com/vijayawada/new-good-morning-governorpet/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
-      "menu_url": "https://www.zomato.com/vijayawada/new-good-morning-governorpet/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
-      "featured_image": "",
-      "has_online_delivery": 1,
-      "is_delivering_now": 0,
-      "include_bogo_offers": true,
-      "deeplink": "zomato://restaurant/18696543",
-      "is_table_reservation_supported": 0,
-      "has_table_booking": 0,
-      "events_url": "https://www.zomato.com/vijayawada/new-good-morning-governorpet/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
-      "establishment_types": []
-    },
-    {
-      "R": {
         "res_id": 18696993
       },
       "apikey": "9afe5ae2561b8091f5118177b4848b35",
@@ -654,26 +454,26 @@
     },
     {
       "R": {
-        "res_id": 18698629
+        "res_id": 18698020
       },
       "apikey": "9afe5ae2561b8091f5118177b4848b35",
-      "id": "18698629",
-      "name": "Nantra",
-      "url": "https://www.zomato.com/vijayawada/nantra-gunadala?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+      "id": "18698020",
+      "name": "Domino's Pizza",
+      "url": "https://www.zomato.com/vijayawada/dominos-pizza-2-labbipet?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
       "location": {
-        "address": "TGIFF Drive Inn, BRTS Road Y Junction, Gunadala, Vijayawada",
-        "locality": "Gunadala",
+        "address": "3rd Floor, PVP Square Mall, MG Road, Labbipet, Vijayawada",
+        "locality": "PVP Square Mall, Labbipet",
         "city": "Vijayawada",
         "city_id": 11300,
-        "latitude": "16.5246075287",
-        "longitude": "80.6562154368",
+        "latitude": "16.5024411949",
+        "longitude": "80.6424382702",
         "zipcode": "",
         "country_id": 1,
-        "locality_verbose": "Gunadala, Vijayawada"
+        "locality_verbose": "PVP Square Mall, Labbipet, Vijayawada"
       },
       "switch_to_order_menu": 0,
-      "cuisines": "Kerala",
-      "average_cost_for_two": 400,
+      "cuisines": "Pizza",
+      "average_cost_for_two": 600,
       "price_range": 2,
       "currency": "Rs.",
       "offers": [],
@@ -683,33 +483,27 @@
       "is_book_form_web_view": 0,
       "book_form_web_view_url": "",
       "book_again_url": "",
-      "thumb": "",
+      "thumb": "https://b.zmtcdn.com/data/pictures/chains/1/18697301/2c7d1f324e6f10021ef521b64f75af36.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
       "user_rating": {
-        "aggregate_rating": "0",
-        "rating_text": "Not rated",
-        "rating_color": "CBCBC8",
-        "votes": "0"
+        "aggregate_rating": "2.7",
+        "rating_text": "Average",
+        "rating_color": "FFBA00",
+        "votes": "25"
       },
-      "photos_url": "https://www.zomato.com/vijayawada/nantra-gunadala/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
-      "menu_url": "https://www.zomato.com/vijayawada/nantra-gunadala/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
-      "featured_image": "",
+      "photos_url": "https://www.zomato.com/vijayawada/dominos-pizza-2-labbipet/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+      "menu_url": "https://www.zomato.com/vijayawada/dominos-pizza-2-labbipet/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+      "featured_image": "https://b.zmtcdn.com/data/pictures/chains/1/18697301/2c7d1f324e6f10021ef521b64f75af36.jpg?output-format=webp",
       "has_online_delivery": 0,
       "is_delivering_now": 0,
       "include_bogo_offers": true,
-      "deeplink": "zomato://restaurant/18698629",
+      "deeplink": "zomato://restaurant/18698020",
       "is_table_reservation_supported": 0,
       "has_table_booking": 0,
-      "events_url": "https://www.zomato.com/vijayawada/nantra-gunadala/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+      "events_url": "https://www.zomato.com/vijayawada/dominos-pizza-2-labbipet/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
       "establishment_types": []
     }
   ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
+  "comments": [],
   "profile": {
     "name": "typicode"
   }

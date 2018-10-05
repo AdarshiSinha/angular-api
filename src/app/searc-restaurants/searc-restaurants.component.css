@@ -1,0 +1,44 @@
+
+.search, .search1{
+width:50%;
+}
+
+form{
+  font-size:2rem;
+  margin-left:30%;
+}
+
+.btn-primary{
+  font-size:2rem;
+  /* position: relative; */
+  margin:auto;
+}
+
+body{
+  background-image:url("src/assets/img/carousal2.jpg");
+  width:100%;
+  height:2000%;
+  background-attachment:fixed;
+  background-size:cover;
+}
+
+span{
+  color: white;
+}
+
+.card{
+  flex-direction:column;
+  width:20%;
+  margin-left:50rem;
+
+}
+img{
+  width:30rem;
+  height:30rem;
+}
+
+p{
+  font-size: 1rem;
+}
+
+

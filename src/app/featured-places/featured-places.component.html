@@ -1,13 +1,15 @@
+<!-- <div class="edit">
+
 <h2>Featured Places Near You...</h2>
       <div class="card-deck" >
-        <!-- <mat-grid-list cols="4"> -->
+        <mat-grid-list cols="4">
 
   <div class="card">
 
     <img class="card-img-top" src="src/assets/img/swadistaahar.jpg" alt="Card image cap" >
         <div class="card-body">
       <h5 class="card-title">Swadisth Aahar</h5>
-      <p class="card-text">South Indian, North Indian and Chinese<br>Rs.150 for one<br> Get Amazing Discounts!!</p><br>
+      <p class="card-text">South Indian, North Indian and Chinese<br>Rs.150 for one<br> Get Amazing Discounts!!</p>
       <a href="#" class="btn btn-primary button" style="float:right;">Order Online</a>
       <mat-icon (onclick)="AddToCollection()">library_add</mat-icon>
     </div>
@@ -52,5 +54,21 @@
       <small class="text-muted">Last updated 30 mins ago</small>
     </div>
   </div>
-<!-- </mat-grid-list> -->
+</mat-grid-list>
 </div>
+</div> -->
+<div class="edit">
+<a class="btn btn-primary" (click)="enter()" style="font-size: 2rem">Restaurants Near Me</a>
+<div class="row" *ngFor="let res1 of res">
+    <div class="card" style="width:25%">
+      <div class="card-body">
+        <img src="{{res1.featured_image}}">
+        <h5 class="card-title">{{res1.name}}</h5>
+        <p>Best in:{{res1.cuisines}}</p>
+        <p>avg for two: {{res1.average_cost_for_two}}</p>
+        <p>Location: {{res1.location.city}}</p>
+        <a  class="btn btn-primary" (click)="sendData(res1)">Add To Collections</a>
+      </div>
+    </div>
+  </div>
+  </div>

@@ -1,16 +1,22 @@
-<!-- showCollections();
-<br>
+
+<body>
 <div *ngIf="clicked">
+    <div class="resultsContainer">
   <div class="row" *ngFor="let resturant of resturants">
-    <div>This is resturant: {{resturant}}</div>
+    <!-- <div>This is resturant: {{resturant}}</div> -->
     <div class="card">
       <div class="card-body">
-        <img src="{{resturant.featured_image}}">
+        <img src="{{resturant.featured_image}}" class="image">
         <h5 class="card-title">{{resturant.name}}</h5>
-        <a  class="btn btn-primary" (click)="sendData(res1)">Add To Collections</a>
+        <p>Best in:{{resturant.cuisines}}</p>
+        <p>avg for two: {{resturant.average_cost_for_two}}</p>
+        <p>Location: {{resturant.location.city}}</p>
+        <a  class="btn btn-primary" (click)="deleteData(resturant)">Remove From Collections</a>
       </div>
     </div>
   </div>
-</div> -->
+  </div>
+</div>
+</body>
 
-<p>asdasdadasdasdasd</p>
+<!-- <p>asdasdadasdasdasd</p> -->

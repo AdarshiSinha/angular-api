@@ -1,13 +1,13 @@
-
+<body>
 <form>
-    Search By Location:<br>
+    <span>Search By Restaurant/Location:</span><br>
     <input class="search" type="text"  name="EnterLocation" [(ngModel)]="EnterLocation">
     <!-- <button (click)="enter()">Submit</button> -->
 
     <br>
-    Search By Cuisine:<br>
+    <span>Search By Cuisine:</span><br>
         <input class="search1" type="text"  name="EnterCuisine" [(ngModel)]="EnterCuisine"><br>
-    <button (click)="enter()">Submit</button>
+    <a (click)="enter()" class="btn btn-primary">Submit</a>
     <br>
     </form>
     <!-- <button (click)="sendData()">Add To Collections</button> -->
@@ -16,8 +16,12 @@
         <div class="card" style="width:25%">
           <div class="card-body">
             <img src="{{res1.featured_image}}">
-            <h5 class="card-title">{{res1.name}}</h5>
+            <h4 class="card-title">{{res1.name}}</h4>
+            <p>Best in:{{res1.cuisines}}</p>
+            <p>avg for two: {{res1.average_cost_for_two}}</p>
+            <p>Location: {{res1.location.city}}</p>
             <a  class="btn btn-primary" (click)="sendData(res1)">Add To Collections</a>
           </div>
         </div>
       </div>
+    </body>

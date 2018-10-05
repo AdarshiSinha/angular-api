@@ -9,13 +9,18 @@
 
 
 }
-.card{
-  /* flex-direction:column; */
-  width:25%;
-}
 
+body{
+  background-image: url("src/assets/img/foodbackground.jpg");
+  background-repeat: repeat;
+  height:500%;
+}
 .card-deck{
-    flex-direction:row;
+  flex-direction:column;
+  background-color:white;
+  width:30%;
+  margin-left:50rem;
+
 }
 
 .card-img-top:hover {
