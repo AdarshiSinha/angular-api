@@ -12,7 +12,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
-  enter(){
-    this.panelOpenState=!this.panelOpenState;
+  enter() {
+    this.panelOpenState = !this.panelOpenState;
   }
 }

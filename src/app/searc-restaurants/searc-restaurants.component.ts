@@ -9,19 +9,19 @@ import { HttpHeaders } from '@angular/common/http';
 })
 export class SearcRestaurantsComponent implements OnInit {
 
-  EnterLocation:string="Enter location";
-  EnterCuisine:string="Enter cuisine";
-  //name1: string="Sally";
+  EnterLocation = 'Enter location';
+  EnterCuisine = 'Enter cuisine';
+  // name1: string="Sally";
   // response:any;
   LIVE_URI = 'https://developers.zomato.com/api/v2.1';
-  res:any =[];
+  res: any = [];
 
 
   constructor(private httpClient: HttpClient ) { }
 
   ngOnInit() {
   }
-  enter(){
+  enter() {
     const httpOptions = {
       headers: new HttpHeaders({
         'Content-Type':  'application/json',
@@ -30,15 +30,15 @@ export class SearcRestaurantsComponent implements OnInit {
     };
 
 
-  this.httpClient.get(this.LIVE_URI+"/search?q="+this.EnterLocation+"&cuisines="+this.EnterCuisine,
+  this.httpClient.get(this.LIVE_URI + '/search?q=' + this.EnterLocation + '&cuisines=' + this.EnterCuisine,
     httpOptions).subscribe((val: any) => {
       this.res = val.restaurants.map(e => {
-        return e.restaurant
-      })
-    })
+        return e.restaurant;
+      });
+    });
 
   }
-  sendData(res1:any) {
+  sendData(res1: any) {
     // const body = JSON.stringify(newStock);
     // const httpOptions = {
     //   headers: new HttpHeaders({
@@ -51,9 +51,9 @@ export class SearcRestaurantsComponent implements OnInit {
     // return this.httpClient.post('https://the-bicycle-shop.firebaseio.com/products/Bicycles/bmx.json', body,httpOptions)
     //     .map((data: Response) => db.json());
 
-        this.httpClient.post("http://localhost:3000/posts",res1).subscribe(
+        this.httpClient.post('http://localhost:3000/posts', res1).subscribe(
             data => {
-                console.log("POST Request is successful ");
+                console.log('POST Request is successful ');
             }
 
         );

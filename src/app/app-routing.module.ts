@@ -16,10 +16,10 @@ const routes: Route[] = [
  // {path:'', redirectTo:'/home', pathMatch:'prefix'},
   {path: '', component: HomeComponent},
   // {path: '', redirectTo:'/show-collections', pathMatch:'full'},
-  {path:'show-collections', component: ShowCollectionsComponent},
-  {path:'exotic-restaurants', component: ExoticRestaurantsComponent},
-  {path:'featured-places', component:FeaturedPlacesComponent},
-  {path:'searc-restaurants', component: SearcRestaurantsComponent},
+  {path: 'show-collections', component: ShowCollectionsComponent},
+  {path: 'exotic-restaurants', component: ExoticRestaurantsComponent},
+  {path: 'featured-places', component: FeaturedPlacesComponent},
+  {path: 'searc-restaurants', component: SearcRestaurantsComponent},
   {path: '**', component: PageNotFoundComponent}
 ];
 

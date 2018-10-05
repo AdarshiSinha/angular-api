@@ -12,12 +12,12 @@ import { HttpClientModule } from '@angular/common/http';
 
 export class AppComponent {
   title = 'routing-intro';
-  homeRoute= 'home';
+  homeRoute = 'home';
   // settingsRoute= 'settings';
-  params:any;
+  params: any;
 
-  routes=[
-    {linkName:'Home', url:'home'},
+  routes = [
+    {linkName: 'Home', url: 'home'},
     // {linkname:'Settings', url:'settings'}
   ];
   // customersObservable:any;

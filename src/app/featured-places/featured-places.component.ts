@@ -10,13 +10,13 @@ import { HttpHeaders } from '@angular/common/http';
 export class FeaturedPlacesComponent implements OnInit {
 
   LIVE_URI = 'https://developers.zomato.com/api/v2.1';
-  res:any =[];
+  res: any = [];
 
   constructor(private httpClient: HttpClient) { }
 
   ngOnInit() {
   }
-  enter(){
+  enter() {
     const httpOptions = {
       headers: new HttpHeaders({
         'Content-Type':  'application/json',
@@ -25,20 +25,20 @@ export class FeaturedPlacesComponent implements OnInit {
     };
 
 
-  this.httpClient.get(this.LIVE_URI+"/search?q=Vijaywada",
+  this.httpClient.get(this.LIVE_URI + '/search?q=Vijaywada',
     httpOptions).subscribe((val: any) => {
       this.res = val.restaurants.map(e => {
-        return e.restaurant
-      })
-    })
+        return e.restaurant;
+      });
+    });
 
   }
-  sendData(res1:any) {
+  sendData(res1: any) {
 
 
-        this.httpClient.post("http://localhost:3000/posts",res1).subscribe(
+        this.httpClient.post('http://localhost:3000/posts', res1).subscribe(
             data => {
-                console.log("POST Request is successful ");
+                console.log('POST Request is successful ');
             }
 
         );

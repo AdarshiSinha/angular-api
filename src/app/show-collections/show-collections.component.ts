@@ -11,15 +11,15 @@ import { HttpHeaders } from '@angular/common/http';
 export class ShowCollectionsComponent implements OnInit {
 
   constructor(private httpClient: HttpClient ) { }
-  res:any=[];
-  resturants=[];
-  clicked:boolean=false;
+  res: any = [];
+  resturants = [];
+  clicked = false;
 
   ngOnInit() {
     this.showCollections();
   }
-  showCollections(){
-    this.clicked=!this.clicked;
+  showCollections() {
+    this.clicked = !this.clicked;
     console.log('called showCollections');
     const httpOptions = {
       headers: new HttpHeaders({
@@ -29,13 +29,13 @@ export class ShowCollectionsComponent implements OnInit {
     };
 
 
-    this.httpClient.get("http://localhost:3000/posts").subscribe((val: any) => {
+    this.httpClient.get('http://localhost:3000/posts').subscribe((val: any) => {
       this.resturants = val;
       console.log(this.resturants);
-      })
+      });
   }
 
-  sendData(res1:any) {
+  sendData(res1: any) {
     // const body = JSON.stringify(newStock);
     const httpOptions = {
       headers: new HttpHeaders({
@@ -48,18 +48,18 @@ export class ShowCollectionsComponent implements OnInit {
     // return this.httpClient.post('https://the-bicycle-shop.firebaseio.com/products/Bicycles/bmx.json', body,httpOptions)
     //     .map((data: Response) => db.json());
 
-        this.httpClient.post("http://localhost:3000/posts",res1).subscribe(
+        this.httpClient.post('http://localhost:3000/posts', res1).subscribe(
             data => {
-                console.log("POST Request is successful ");
+                console.log('POST Request is successful ');
             }
 
         );
 }
 
-deleteData(res1:any) {
-  this.httpClient.delete("http://localhost:3000/posts/"+res1.id).subscribe(
-    data=> {
-      console.log("DELETE Request is successful");
+deleteData(res1: any) {
+  this.httpClient.delete('http://localhost:3000/posts/' + res1.id).subscribe(
+    data => {
+      console.log('DELETE Request is successful');
     }
   );
 
